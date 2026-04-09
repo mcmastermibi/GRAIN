@@ -2,7 +2,7 @@
 GRAIN — Gut-derived Release of Agents Influencing Nociception
 ReadMe: High-Dimensional Neuroimmune Profiling of Histamine-Driven Visceral Hyperalgesia
 
-1. Research Overview and Scientific Significance
+## 1. Research Overview and Scientific Significance
 
 The interaction between the mucosal immune system and the enteric nervous system is a primary determinant of the "mechanistic endotype" underlying Irritable Bowel Syndrome (IBS). Investigating gut microbiota-derived metabolites—specifically neuroactive mediators like histamine—is strategically essential for decoding how luminal signaling translates into chronic visceral pain. While clinical correlations between dysbiosis and IBS are common, establishing a causal, metabolic basis for peripheral sensitization has remained elusive until the integration of gnotobiotic modeling and high-dimensional spatial proteomics.
 
@@ -27,23 +27,25 @@ These organismal-level findings of visceral hypersensitivity necessitated the su
 
 Mapping the intestinal neuroimmune landscape requires a high-fidelity classification of cellular lineages. The following table identifies the robust lineage markers used to define the spatial architecture of the intestinal barrier, the Enteric Nervous System (ENS), and the mucosal immune compartments.
 
-Cell Type	Lineage Markers	Cellular Category	Tissue Context
-Enteroendocrine cells	CHGA	Epithelial / Neuroendocrine	Intestinal barrier
-Goblet cells	MUC2	Epithelial	Intestinal barrier
-Epithelial cells	E-cadherin	Epithelial	Intestinal barrier
-Neurons and nerve fibers	TUJ1, GAP43	Neural	ENS
-Sensory neurons	CGRP, SUBP	Neural	ENS
-Cholinergic neurons	CHAT	Neural	ENS
-Nitrergic neurons	NOS1	Neural	ENS
-Enteric glial cells	S100B	Neural	ENS
-T-lymphocytes	CD3e, CD4, CD8a	Immune	Intestinal tissue
-Macrophages	CD11b, F4/80, CD163	Immune	Intestinal tissue
-Mast cells	Tryptase, Chymase	Immune	Intestinal tissue
-Leucocytes	CD45	Immune	Intestinal tissue
-Eosinophils	EMBP	Immune	Intestinal tissue
-Smooth muscle / Myofibroblasts	\alphaSMA	Stromal / Structural	Intestinal wall
-Mesenchymal / Stromal cells	Vimentin	Stromal / Structural	Intestinal tissue
-Endothelial cells	CD31	Structural / Vascular	Blood vessels
+
+| Cell Type | Lineage | Markers | Cellular Category | Tissue Context |
+| --------- | ------- | ------- | ----------------- | -------------- |
+| Enteroendocrine cells |	CHGA |	Epithelial / Neuroendocrine |	Intestinal barrier |
+| Goblet cells |	MUC2 |	Epithelial |	Intestinal barrier |
+| Epithelial cells |	E-cadherin |	Epithelial |	Intestinal barrier |
+| Neurons and nerve fibers |	TUJ1, GAP43 |	Neural |	ENS |
+| Sensory neurons |	CGRP, SUBP |	Neural |	ENS |
+| Cholinergic neurons |	CHAT |	Neural |	ENS |
+| Nitrergic neurons |	NOS1 |	Neural |	ENS |
+| Enteric glial cells |	S100B |	Neural |	ENS |
+| T-lymphocytes |	CD3e, CD4, CD8a |	Immune |	Intestinal tissue |
+| Macrophages |	CD11b, F4/80, CD163 |	Immune |	Intestinal tissue |
+| Mast cells |	Tryptase, Chymase |	Immune	| Intestinal tissue |
+| Leucocytes |	CD45 |	Immune |	Intestinal tissue |
+| Eosinophils |	EMBP |	Immune |	Intestinal tissue |
+| Smooth muscle/Myofibroblasts | alphaSMA	Stromal/Structural |	Intestinal wall |
+| Mesenchymal/Stromal cells |	Vimentin	 |Stromal/Structural |	Intestinal tissue |
+| Endothelial cells |	CD31 |	Structural/Vascular |	Blood vessels|
 
 Analysis of Neuroimmune Proximity and Nerve Density Beyond lineage identification, high-dimensional spatial analysis revealed that the IBS-HH microbiota creates a "perfect storm" for peripheral sensitization. In hyperalgesic mice, there is a significant increase in the density of Tryptase-positive mast cells. These effectors are not merely more numerous but are found in extreme proximity (< 2 µm) to PGP9.5-positive neurons. When coupled with the observed increase in colonic nerve density (sprouting) in IBS-HH mice, this proximity facilitates a direct metabolic-to-neural communication channel that drives chronic pain.
 
