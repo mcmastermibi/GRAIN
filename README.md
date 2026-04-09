@@ -27,8 +27,8 @@ These organismal-level findings of visceral hypersensitivity necessitated the su
 
 Mapping the intestinal neuroimmune landscape requires a high-fidelity classification of cellular lineages. The following table identifies the robust lineage markers used to define the spatial architecture of the intestinal barrier, the Enteric Nervous System (ENS), and the mucosal immune compartments.
 
-| Cell Type | Lineage | Markers | Cellular Category | Tissue Context |
-| --------- | ------- | ------- | ----------------- | -------------- |
+| Cell Type Lineage | Markers | Cellular Category | Tissue Context |
+| :---------------- | :------ | :---------------- | :------------- |
 | Enteroendocrine cells |	CHGA |	Epithelial / Neuroendocrine |	Intestinal barrier |
 | Goblet cells |	MUC2 |	Epithelial |	Intestinal barrier |
 | Epithelial cells |	E-cadherin |	Epithelial |	Intestinal barrier |
@@ -55,7 +55,7 @@ Multiplexed Ion Beam Imaging (MIBI) utilizes secondary ion mass spectrometry to 
 The following markers from the PB-MSIBS-COHORT-PANEL are critical for reproducing the neuroimmune spatial analysis:
 
 | Target | Mass | Element | Functional Classifcation | Predicted Localization |
-| ------ | ---- | ------- | ------------------------ | ---------------------- |
+| :----- | :--- | :------ | :----------------------- | :--------------------- |
 | NaKATPase |	89 | Y |	Transporter	| Membrane |
 | E-cadherin |	113 | In |	Cell-Cell Adhesion |	Membrane |
 | HH3 |	115 | In |	Nucleosome component |	Intracellular (Nuclear) |
