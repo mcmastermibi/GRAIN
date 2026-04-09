@@ -10,7 +10,7 @@ This repository provides the computational and experimental framework associated
 
 The clinical "So What?" layer resides in the transition from viewing IBS as a general sensitivity disorder to understanding it as a targetable metabolic interaction. By demonstrating that dietary fermentable carbohydrates provide the substrate for K. aerogenes—and that low-fermentable diets reduce both the abundance of these bacteria and urinary histamine levels—the research provides a mechanistically grounded rationale for symptom management. This repository contains the MIBI (Multiplexed Ion Beam Imaging) data and marker specifications used to map the spatial architecture of this neuroimmune axis.
 
-2. Experimental Model: Gnotobiotic Mouse Cohorts
+## 2. Experimental Model: Gnotobiotic Mouse Cohorts
 
 Gnotobiotic (germ-free) mice represent the gold standard for validating the impact of human fecal microbiotas on host physiology, as they allow for the isolation of specific microbial signals without interference from an indigenous flora. This model is essential for proving that the IBS-HH (High Histamine) phenotype is a transferable trait driven by the microbiota itself rather than host genetics alone.
 
@@ -23,10 +23,9 @@ The physiological contrast between cohorts was quantified using high-precision a
 
 These organismal-level findings of visceral hypersensitivity necessitated the sub-cellular proteomic mapping provided by the MIBI panel to identify the specific cellular junctions of pain signaling.
 
-3. Cellular Lineage Phenotypes and Robust Markers
+## 3. Cellular Lineage Phenotypes and Robust Markers
 
 Mapping the intestinal neuroimmune landscape requires a high-fidelity classification of cellular lineages. The following table identifies the robust lineage markers used to define the spatial architecture of the intestinal barrier, the Enteric Nervous System (ENS), and the mucosal immune compartments.
-
 
 | Cell Type | Lineage | Markers | Cellular Category | Tissue Context |
 | --------- | ------- | ------- | ----------------- | -------------- |
@@ -49,42 +48,43 @@ Mapping the intestinal neuroimmune landscape requires a high-fidelity classifica
 
 Analysis of Neuroimmune Proximity and Nerve Density Beyond lineage identification, high-dimensional spatial analysis revealed that the IBS-HH microbiota creates a "perfect storm" for peripheral sensitization. In hyperalgesic mice, there is a significant increase in the density of Tryptase-positive mast cells. These effectors are not merely more numerous but are found in extreme proximity (< 2 µm) to PGP9.5-positive neurons. When coupled with the observed increase in colonic nerve density (sprouting) in IBS-HH mice, this proximity facilitates a direct metabolic-to-neural communication channel that drives chronic pain.
 
-4. MIBI Multiplexed Antibody Panel Specifications
+## 4. MIBI Multiplexed Antibody Panel Specifications
 
 Multiplexed Ion Beam Imaging (MIBI) utilizes secondary ion mass spectrometry to detect metal-conjugated antibodies, enabling sub-cellular proteomic localization without the spectral overlap inherent in fluorescence microscopy. By targeting specific isotopic masses, we achieve high-plex resolution of the intestinal microenvironment.
 
 The following markers from the PB-MSIBS-COHORT-PANEL are critical for reproducing the neuroimmune spatial analysis:
 
-Target Marker	Mass & Element	Functional Classification	Predicted Localization
-NaKATPase	89 Y	Transporter	Membrane
-E-cadherin	113 In	Cell-Cell Adhesion	Membrane
-HH3	115 In	Nucleosom component	Intracellular (Nuclear)
-LPAR1	141 Pr	GPCR (Damage response)	Membrane
-H1R	142 Nd	GPCR (Immune modulation)	Membrane, Intracellular
-CD4	143 Nd	CD marker (T-cell coreceptor)	Membrane, Intracellular
-CD11c	144 Nd	CD marker (Integrin \alpha-X)	Membrane, Intracellular
-LPAR3	145 Nd	GPCR (Cellular mediator)	Membrane, Intracellular
-H4R	146 Nd	GPCR (Histamine mediator)	Membrane
-LPAR5	147 Sm	GPCR (LPA Receptor)	Membrane
-H2R	148 Nd	GPCR (Gastric secretion)	Membrane
-CHAT	150 Nd	Enzyme (ACh synthesis)	Intracellular
-SUBP	151 Eu	Neuropeptide (Protachykinin-1)	Secreted
-CD31	152 Sm	CD marker (Cell adhesion)	Membrane, Intracellular
-Ki-67	153 Eu	Proliferation marker	Intracellular (Nuclear)
-NOS1	154 Sm	Enzyme (Nitric oxide synthase)	Intracellular
-CD11b	155 Gd	CD marker (Integrin \alpha-M)	Membrane, Intracellular
-F480	156 Gd	GPCR (Adhesion)	Membrane, Intracellular
-GAP43	157 Gd	Plasma protein (Nerve growth)	Intracellular
-CD8a	158 Gd	CD marker (MHC I coreceptor)	Membrane, Intracellular
-CD3e	159 Tb	CD marker (T-cell activation)	Membrane
-HIF1A	160 Gd	Transcription Factor	Intracellular
-Vimentin	163 Dy	Intermediate Filament	Intracellular
-\alphaSMA	164 Dy	Contractile apparatus	Intracellular
-TUJ1	176 Yb	Structural (Tubulin \beta-3)	Intracellular
+| Target | Mass | Element | Functional Classifcation | Predicted Localization |
+| ------ | ---- | ------- | ------------------------ | ---------------------- |
+| NaKATPase |	89 | Y |	Transporter	| Membrane |
+| E-cadherin |	113 | In |	Cell-Cell Adhesion |	Membrane |
+| HH3 |	115 | In |	Nucleosome component |	Intracellular (Nuclear) |
+| LPAR1 |	141 | Pr |	GPCR (Damage response) |	Membrane |
+| H1R |	142 | Nd |	GPCR (Immune modulation) |	Membrane, Intracellular |
+| CD4 |	143 | Nd |	CD marker (T-cell coreceptor) |	Membrane, Intracellular |
+| CD11c |	144 | Nd |	CD marker (Integrin/alpha-X)	| Membrane, Intracellular |
+| LPAR3 |	145 | Nd |	GPCR (Cellular mediator) |	Membrane, Intracellular |
+| H4R |	146 | Nd |	GPCR (Histamine mediator) |	Membrane |
+| LPAR5 |	147 | Sm |	GPCR (LPA Receptor) |	Membrane |
+| H2R |	148 | Nd |	GPCR (Gastric secretion) |	Membrane |
+| CHAT |	150 | Nd |	Enzyme (ACh synthesis) |	Intracellular |
+| SUBP |	151 | Eu |	Neuropeptide (Protachykinin-1) |	Secreted |
+| CD31 |	152 | Sm |	CD marker (Cell adhesion) |	Membrane, Intracellular |
+| Ki-67 |	153 | Eu |	Proliferation marker |	Intracellular (Nuclear) |
+| NOS1 |	154 | Sm |	Enzyme (Nitric oxide synthase) |	Intracellular |
+| CD11b |	155 | Gd |	CD marker (Integrin/alpha-M) |	Membrane, Intracellular |
+| F480 |	156 | Gd |	GPCR (Adhesion) |	Membrane, Intracellular |
+| GAP43 |	157 | Gd |	Plasma protein (Nerve growth) |	Intracellular |
+| CD8a |	158 | Gd |	CD marker (MHC I coreceptor) |	Membrane, Intracellular |
+| CD3e |	159 | Tb |	CD marker (T-cell activation) |	Membrane |
+| HIF1A |	160 | Gd |	Transcription Factor |	Intracellular |
+| Vimentin |	163 | Dy |	Intermediate Filament |	Intracellular |
+| alphaSMA |	164 | Dy |	Contractile apparatus |	Intracellular |
+| TUJ1 |	176 | Yb |	Structural (Tubulin beta-3) |	Intracellular |
 
 Isotopic Precision and Signal Separation Targeting specific masses (e.g., 141Pr vs 143Nd) is critical for minimizing signal "bleed-through" in the high-plex mucosal environment. This isotopic precision allows for the simultaneous localization of receptors like H4R and lineage markers like CD3e, which is fundamental for quantifying the spatial interactions between different cell types in the lamina propria.
 
-5. Functional Marker Analysis: Receptors and Signaling
+## 5. Functional Marker Analysis: Receptors and Signaling
 
 The strategic selection of functional markers allows the repository to capture the dynamic signaling states that define histamine-driven pathology.
 
@@ -95,7 +95,7 @@ The strategic selection of functional markers allows the repository to capture t
 
 Pharmacological Validation The transformative insight of this study is the identification of the H4R-histamine axis as a targetable pathway. In vivo pharmacological blockade using JNJ-39758979 successfully inhibited visceral hypersensitivity and decreased colonic mast cell accumulation. Furthermore, in vitro chemotaxis assays using the antagonist JNJ-7777120 confirmed that microbially derived histamine directly recruits mast cells via H4R, providing a comprehensive signaling validation from bench to model.
 
-6. Repository Usage and Data Access
+## 6. Repository Usage and Data Access
 
 This repository is an open-access resource for researchers focused on mucosal immunology, enteric neurobiology, and spatial proteomics.
 
